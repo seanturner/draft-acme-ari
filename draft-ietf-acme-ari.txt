@@ -4,8 +4,8 @@
 
 ACME Working Group                                              A. Gable
 Internet-Draft                          Internet Security Research Group
-Intended status: Standards Track                          24 August 2022
-Expires: 25 February 2023
+Intended status: Standards Track                          29 August 2022
+Expires: 2 March 2023
 
 
 Automated Certificate Management Environment (ACME) Renewal Information
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 February 2023.
+   This Internet-Draft will expire on 2 March 2023.
 
 Copyright Notice
 
@@ -214,7 +214,7 @@ Table of Contents
    based on the suggested renewal window.  The following algorithm is
    RECOMMENDED for choosing a renewal time:
 
-   1.  Select a uniforn random time within the suggested window.
+   1.  Select a uniform random time within the suggested window.
 
    2.  If the selected time is in the past, attempt renewal immediately.
 
